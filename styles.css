@@ -1,0 +1,76 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+    max-width: 500px;
+    width: 90%;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+#submit {
+    background-color: #28a745; /* Bootstrap success color */
+    border: none;
+}
+
+#submit:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.alert {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert h5 {
+    margin-top: 0;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+    }
+}
